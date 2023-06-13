@@ -1,7 +1,75 @@
 body {
+    
     font-family: Josefin Sans;
     background-image: url(student.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+}
+.box {
+        color: aliceblue;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 20px;
+        background-color: black;
+        opacity: 0.7;
+        padding: 5px;
+        max-height: 70px;
+    }
+    ul {
+        list-style: none;
+        margin: 30px;
+        padding: 30px;
+    }
+    
+    ul li {
+        display: inline;
+        margin: 0 22px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+    
+    ul li a:hover {
+        color: rgb(235, 90, 90);
+        font-size: 1.4rem;
+    }    
+
+    .register{
+        border: 5px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        width: 350px;
+        margin-left: 150px;
+    
+    }
+
+.title{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-box{
+    font-size: 18px;
+    width: 90%;
+    position: relative;
+    margin: 10px auto 0;
 
 }
+.name{
+    width: 10px;
+}
+
+.text{
+    width: 45%;
+    padding: 4px 0px 4px 10px;
+    font-size: 14px;
+    border-bottom-width: 2px;
+    border-radius: 5px ;
+}
+
+
+    
