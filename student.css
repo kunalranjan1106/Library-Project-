@@ -41,9 +41,14 @@ body {
         border: 5px solid black;
         border-radius: 10px;
         padding: 20px;
+        margin-top: 10px;
         width: 350px;
+        height: 450px;
         margin-left: 150px;
         font-weight: 500;
+        font-family: sans-serif;
+        background-color: #080000a1;
+        color: white;
     }
 
 .title{
@@ -51,6 +56,9 @@ body {
     padding: 20px;
     text-align: center;
     font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+    display: inline-flexbox;
 }
 
 .input-box{
@@ -85,9 +93,27 @@ form .button{
     
 }
 form .button:hover{
-    background:linear-gradient(rgb(236, 168, 30))
+    background:linear-gradient(rgb(237, 182, 109));
+    font-size: 1.2em;
+}
+ .div{
+    display: inline-table;
+    width: 30%;
+ }
+.log-in{
+    width: 30%;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    height: 450px;
+    margin-left: 150px;
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color: #080000a1;
+    color: white;
 }
 
-
-
-    
+.log-in .button{
+    margin-top: 4S0px;
+}
